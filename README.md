@@ -1,5 +1,5 @@
 <div align="center">
-<img src="<img src="https://i.ibb.co/HXhTZQs/thumb.jpg" alt="thumb" border="0">" alt="Will-Rara-Test-Bot" width="300" />
+<img src="<img src="https://i.ibb.co/Cv7d0KV/undefined.jpg" alt="undefined" border="0">" alt="thumb" border="0">" alt="Will-Rara-Test-Bot" width="300" />
 
 # Love You Araa
 
@@ -8,7 +8,7 @@
 >
 </div>
 <p align="center">
-  <a href="https://github.com/Hexagonz"><img title="Author" src="https://img.shields.io/badge/Author-Hexagonz-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/WilliamXixi"><img title="Author" src="https://img.shields.io/badge/Author-Hexagonz-red.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
   <a href="https://wa.me/994407170763">KYAAA ONI CHAN >//< </a>
 </h4>
