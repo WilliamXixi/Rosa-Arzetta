@@ -1,6 +1,6 @@
 <div align="center">
-<img src="<img src="https://i.ibb.co/Cv7d0KV/undefined.jpg" alt="undefined" border="0">" alt="thumb" border="0">" alt="Will-Rara-Test-Bot" width="300" />
-
+<   img    src = "<img src="  https://i.ibb.co/4Kny4PP/ed9c34dc5244e526ae756bd441289bf5.jpg  " alt="  ed9c34dc5244e526ae756bd441289bf5  " border="  0  ">alt=" Will-Rara " lebar= "  300  " />
+kami
 # Love You Araa
 
 >
@@ -13,7 +13,7 @@
   <a href="https://wa.me/994407170763">KYAAA ONI CHAN >//< </a>
 </h4>
 </p>
-
+kami
 ## CARA INSTALL DI TERMUX
 ```bash
 > pkg install nodejs && pkg install git
