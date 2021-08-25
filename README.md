@@ -1,7 +1,7 @@
 <div align="center">
-<img src="https://i.ibb.co/qCHNd0j/36fa310d84b9844bbea4eaf9d6462eed5d6127c6.jpg" alt="SELF-HX" width="300" />
+<img src="<img src="https://i.ibb.co/HXhTZQs/thumb.jpg" alt="thumb" border="0">" alt="Will-Rara-Test-Bot" width="300" />
 
-# DAHLAH
+# Love You Araa
 
 >
 >
@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://github.com/Hexagonz"><img title="Author" src="https://img.shields.io/badge/Author-Hexagonz-red.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
-  <a href="https://wa.me/6285751056816">KYAAA ONI CHAN >//< </a>
+  <a href="https://wa.me/994407170763">KYAAA ONI CHAN >//< </a>
 </h4>
 </p>
 
@@ -24,8 +24,9 @@
 ```
 ## CARA INSTALL DI LAPTOP
 ```bash
-> git clone https://github.com/Hexagonz/SELF-HX 
-> cd SELF-HX
+> Sc Ori Yang Hexagonz
+> git clone https://github.com/WilliamXixi/ara
+> cd 
 > npm i
 > npm start/node main.js
 ```
@@ -114,6 +115,7 @@
 | X |✅|
 
   # MAKASIH LORT
+* [`Sc Bot`](https://github.com/Hexagonz/SELF-HX)
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
 * [`MhankBarBar`](https://github.com/MhankBarBar)
 * [`MRHRTZ`](https://github.com/MRHRTZ)
