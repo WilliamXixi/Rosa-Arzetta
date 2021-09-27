@@ -1543,11 +1543,13 @@ case 'colong':
             }
             break
     case 'upswteks':
+		if (!mek.key.fromMe) return fakestatus('SELF-BOT')
             if (!q) return fakestatus('Isi teksnya!')
             hexa.sendMessage('status@broadcast', `${q}`, extendedText)
             fakegroup(`Sukses Up story wea teks ${q}`)
             break
     case 'upswimage':
+		if (!mek.key.fromMe) return fakestatus('SELF-BOT')
             if (isQuotedImage) {
             const swsw = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
             cihcih = await hexa.downloadMediaMessage(swsw)
@@ -1559,6 +1561,7 @@ case 'colong':
             }
             break
     case 'upswvideo':
+		if (!mek.key.fromMe) return fakestatus('SELF-BOT')
             if (isQuotedVideo) {
             const swsw = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
             cihcih = await hexa.downloadMediaMessage(swsw)
