@@ -887,6 +887,20 @@ mentions(`Sure, demote @${orang.split('@')[0]}`, orang, true)
 hexa.groupDemoteAdmin(from, [orang])
                         } 
                     break
+		         case 'setpp':
+            case 'setppbot':
+ case 'setprofilepicture':
+				if (!isOwner) return
+				if (isMedia && !mek.message.videoMessage || isQuotedImage) {
+					const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+					const media = await hexa.downloadMediaMessage(encmedia)
+					hexa.updateProfilePicture(hexa.user.jid, media)
+					.then((res) => fakegroup(from, JSON.stringify(res, null, 2).toString(), fake))
+					.catch((err) => console.log(err))
+				} else {
+					reply(from, `Kirim gambar atau reply gambar dengan caption ${prefix}setpp`, mek)
+				}
+				break
 case 'promote':
   if (!isGroup) return
   if (!isGroupAdmins) return reply(mess.only.admin)
