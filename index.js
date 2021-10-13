@@ -178,7 +178,7 @@ const isAntiLink = isGroup ? antilink.includes(from) : false
 const arg = chats.slice(command.length + 2, chats.length)
         //MESS
 		mess = {
-			wait: 'Otewe',
+			wait: 'Wait kak,Sedang Di Proses',
 			success: 'Berhasil!',
 			wrongFormat: 'Format salah, coba liat lagi di menu',
 			error: {
@@ -668,23 +668,23 @@ ${readmore+readmore+readmore}
 ► _${prefix}fast_
 ► _${prefix}reverse_
 ► _${prefix}tourl_
-${readmore+readmore+readmore+readmore}
+${readmore+readmore}
 *</UP STORY>*
 ► _${prefix}upswteks_
 ► _${prefix}upswimage_
 ► _${prefix}upswvideo_
-${readmore+readmore+readmore+readmore}
+${readmore+readmore}
 *</FUN>*
 ► _${prefix}fitnah_
 ► _${prefix}fitnahpc_
 ► _${prefix}kontak_
-${readmore+readmore+readmore+readmore}
+${readmore+readmore}
 *</TAG>*
 ► _${prefix}hidetag_
 ► _${prefix}kontag_
 ► _${prefix}sticktag_
 ► _${prefix}totag_
-${readmore+readmore+readmore+readmore}
+${readmore+readmore}
 *</DOWNLOAD>*
 ► _${prefix}ytsearch_ <query>
 ► _${prefix}igstalk_ <query>
@@ -707,7 +707,7 @@ ${readmore+readmore+readmore+readmore}
 ► _${prefix}chara_ <query>
 ► _${prefix}playstore_ <query>
 ► _${prefix}otaku_ <query>
-${readmore+readmore+readmore+readmore}
+${readmore+readmore}
 *</OTHER>*
 ► _${prefix}self_
 ► _${prefix}public_
@@ -722,18 +722,18 @@ ${readmore+readmore+readmore+readmore}
 ► _${prefix}get_
 ► _${prefix}term_ <code>
 ► _x_ <code>
-${readmore+readmore+readmore+readmore}
+${readmore+readmore}
 *</JADI BOT>*
 ► _${prefix}jadibot_
 ► _${prefix}stopjadibot_
 ► _${prefix}listbot_
-${readmore+readmore+readmore+readmore}
+${readmore+readmore}
 *</VOTE>*
 ► _${prefix}voting_
 ► _${prefix}delvote_
 ► _vote_
 ► _devote_
-${readmore+readmore+readmore+readmore}
+${readmore+readmore}
 ❏ *SELF-BOT* ❏`
     reply(menu)
     break
@@ -2407,6 +2407,14 @@ ${descOwner ? `*Desc diubah oleh* : @${descOwner.split('@')[0]}` : '*Desc diubah
 default:
 if (budy.includes('dimje')) {
 const gojomp3 = fs.readFileSync('./lib/dj.mp3');
+hexa.sendMessage(from, gojomp3, MessageType.audio, {quoted: ftroli, mimetype: 'audio/mp4', ptt:true})
+}
+if (budy.includes('dj')) {
+const willp = fs.readFileSync('./lib/dj.mp3');
+hexa.sendMessage(from, gojomp3, MessageType.audio, {quoted: ftroli, mimetype: 'audio/mp4', ptt:true})
+}		   
+		   if (budy.includes('dj bang')) {
+const bangt = fs.readFileSync('./lib/dj.mp3');
 hexa.sendMessage(from, gojomp3, MessageType.audio, {quoted: ftroli, mimetype: 'audio/mp4', ptt:true})
 }
 if (body.startsWith('>>')) {
