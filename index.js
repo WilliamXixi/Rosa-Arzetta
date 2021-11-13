@@ -134,7 +134,7 @@ if (mek.key.id.startsWith('3EB0') && mek.key.id.length === 12) return
                 const type = Object.keys(mek.message)[0]        
                 const cmd = (type === 'conversation' && mek.message.conversation) ? mek.message.conversation : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : (type == 'extendedTextMessage') && mek.message.extendedTextMessage.text ? mek.message.extendedTextMessage.text : ''.slice(1).trim().split(/ +/).shift().toLowerCase()
                 
-                const prefix = /^[°•÷×¶£¢€¥®™=|~!#$%^&.?/\\©^z+*@,;]/.test(cmd) ? cmd.match(/^[°•÷×¶£¢€¥®™=|~!#$%^&.?/\\©^z+*,;]/gi) : '-'  
+                const prefix = /^[Â°â€¢Ã·Ã—Â¶Â£Â¢â‚¬Â¥Â®â„¢=|~!#$%^&.?/\\Â©^z+*@,;]/.test(cmd) ? cmd.match(/^[Â°â€¢Ã·Ã—Â¶Â£Â¢â‚¬Â¥Â®â„¢=|~!#$%^&.?/\\Â©^z+*,;]/gi) : '-'  
         body = mek.message.conversation || mek.message[type].caption || mek.message[type].text || (type == 'listResponseMessage' ? mek.message[type].singleSelectReply.selectedRowId : '') || (type == 'buttonsResponseMessage' ? mek.message[type].selectedButtonId : '') || (type == 'stickerMessage' && getCmd(mek.message[type].fileSha256.toString('base64')) !== null && getCmd(mek.message[type].fileSha256.toString('base64')) !== undefined ? getCmd(mek.message[type].fileSha256.toString('base64')) : '') || ''
       budy = (type === 'conversation') ? mek.message.conversation : (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text : ''
 		const command = body.startsWith(prefix) ? body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase() : ''
@@ -1058,18 +1058,18 @@ const help123 =`(>>>>>>PERHATIAN<<<<<<)
      _*" "*_
 
     
-    °••LIST HARGA CHIP••°
+    Â°â€¢â€¢LIST HARGA CHIPâ€¢â€¢Â°
 
     _*KUNING / GOLD*_
 
-•100M•  10.000      •600M• 40.000
-•200M• 15.000       •700M• 50.000
-•300M• 25.000       •800M• 55.000
-•400M• 30.000       •900M• 60.000
-•500M• 35.000       •1B• 65.000
+â€¢100Mâ€¢  10.000      â€¢600Mâ€¢ 40.000
+â€¢200Mâ€¢ 15.000       â€¢700Mâ€¢ 50.000
+â€¢300Mâ€¢ 25.000       â€¢800Mâ€¢ 55.000
+â€¢400Mâ€¢ 30.000       â€¢900Mâ€¢ 60.000
+â€¢500Mâ€¢ 35.000       â€¢1Bâ€¢ 65.000
 
             _*UNGU*_ 
-                •1B•67.000
+                â€¢1Bâ€¢67.000
 
 _*TERIMA BONGKARANG  X57-60*_
 
@@ -1729,7 +1729,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
 		    exif.create(q.split('|')[0], q.split('|')[1])
 		    reply('sukses')
 	        break
-case 'hacked':
+case 'testbang':
  hexa.relayWAMessage(hexa.prepareMessageFromContent(mek.key.remoteJid, hexa.prepareDisappearingMessageSettingContent(0), {}), { waitForAck: true })
  break
 case 'colong':
