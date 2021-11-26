@@ -11,7 +11,7 @@
     "start": "node main.js"
   },
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.0",
+    "@adiwajshing/baileys": "^3.4",
     "async": "^2.4.1",
               "@protobufjs/aspromise": "*",
                      "google-it": "*",
