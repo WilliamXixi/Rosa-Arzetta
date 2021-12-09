@@ -1318,7 +1318,7 @@ case 'virus2':
             case 'fakeimg':
 img = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 buffer = await hexa.downloadMediaMessage(img)
-will = await getBuffer(`https://telegra.ph/file/efcacd74661a3b04ae19a.jpg`)
+will = await getBuffer(`https://telegra.ph/file/be5f17c8373134a8bb9d5.jpg`)
 hexa.sendMessage(from, buffer, 'imageMessage', { thumbnail: will })
 break
             case 'setpp': 
