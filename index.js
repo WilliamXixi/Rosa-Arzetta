@@ -1761,6 +1761,12 @@ case 'ssweb':
               buffer = await getBuffer(`https://api.xteam.xyz/attp?file&text=${encodeURI(q)}`)
               hexa.sendMessage(from, buffer, sticker, { quoted: mek })
               break
+case 'fakevid':
+mana = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+buffer = await hexa.downloadMediaMessage(mana)
+will = await getBuffer(`https://telegra.ph/file/f991e8d39a640caeafd97.jpg`)
+hexa.sendMessage(from, buffer,  'videoMessage', { thumbnail: will })
+break
 	case 'stikerwm':
 	case 'stickerwm':
     case 'swm':
