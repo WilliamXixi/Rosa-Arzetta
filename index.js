@@ -117,6 +117,13 @@ const checkSCommand = (id) => {
 }
 module.exports = hexa = async (hexa, mek) => 
 try {
+
+        if (!mek.hasNewMessage) return hexa.setStatus(`Runtime ${kyun(process.uptime())} | Mode: ${banChats ? 'SELF-MODE' : 'PUBLIC-MODE'} | ${WillTest}`)
+
+        mek = mek.messages.all()[0]
+
+		if (!mek.message) return		
+	if (mek.key && mek.key.remoteJid == 'status@broadcast') return
 	
 if (mek.key.id.startsWith('3EB0') && mek.key.id.length === 12) return
 		global.prefix
