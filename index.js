@@ -116,6 +116,8 @@ const checkSCommand = (id) => {
 	return status
 }
 module.exports = hexa = async (hexa, mek) => 
+try {
+	
 if (mek.key.id.startsWith('3EB0') && mek.key.id.length === 12) return
 		global.prefix
         	mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
