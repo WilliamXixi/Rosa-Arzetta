@@ -1,5 +1,4 @@
-const
-	{
+{
 		WAConnection,
 		MessageType,
 		Presence,
@@ -67,7 +66,7 @@ owner = '994407170763'
 fake = 'Ocaa && Will'
 numbernye = '0'
 waktu = '-'
-WillTest= 'BrokenHome-Will.require{Ocaa}.yans'
+WillTest= 'One In the mountains there is only one male tiger as well as a relationship, in relationships there is only 1 male if he has more, some will leave and some will settle down'
 autovn = true
 alasan = '-'
 randomUser = {}
